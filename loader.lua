@@ -17,8 +17,4 @@ alts = {
     alt9 = "none",
     alt10 = "none"
 }
-if game:GetService("Players").LocalPlayer.Name == _G.controller then
-    print("Main acc detected")
-else
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Capy-Control/main/main.lua", true))()
-end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Capy-Control/main/main.lua", true))()
