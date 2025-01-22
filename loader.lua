@@ -1,20 +1,11 @@
-repeat
-	task.wait()
-until game:IsLoaded()
-_G.controller = "Main acc here"
-_G.rendering = false --false for no rendering (saves gpu)
-_G.fps = 30 --the fps the alts will run at 30 is recomended (helps with not killing cpu)
-
-alts = {
-    alt1 = "alt",--if you dont want all 10 to be filled put none there
-    alt2 = "none", 
-    alt3 = "none",
-    alt4 = "none",
-    alt5 = "none",
-    alt6 = "none",
-    alt7 = "none",
-    alt8 = "none",
-    alt9 = "none",
-    alt10 = "none"
+-- Alt Control Script
+local prefix = "/" -- Command prefix
+local mainAccount = "MAIN ACCOUNT HERE" -- Main account to control alt accounts
+local fpslimit = 30 -- Default FPS limit for alt accounts
+-- list of alt accounts to control
+local altAccounts = {
+    ["ACCOUNT 1"] = true,
+    ["ACCOUNT 2"] = true,
+    ["ACCOUNT 3"] = true --copy this line and past it below to add more accounts (make sure after each line theres a comma (,))
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Capy-Control/main/main.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punchy-Alt-Control/main/main.lua", true))()
