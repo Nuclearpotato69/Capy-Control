@@ -134,6 +134,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 - Verify that multi-injection is enabled in your executor
 - Check that all account names are spelled correctly in the configuration
 - Make sure all accounts are in the same Roblox game server
+- if theres bugs report them to punchingfella on discord please
 
 ## 📝 Credits
 Created by punchy39
