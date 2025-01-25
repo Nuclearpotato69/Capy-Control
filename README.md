@@ -83,6 +83,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 - `/walkto [player]` - Walk to specified player
 - `/pf [player]` - Pathfind to specified player
 - `/stalk [player]` - Make alts follow a target player
+- `/swarm [player]` - Make alts swarm around a target randomly
 
 ### Formations
 - `/rline` - Line up to the right of main account
@@ -128,6 +129,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 - `/unspin` - Stop spinning
 - `/unstalk` - Stop stalking
 - `/unhelicopter` - Stop helicopter formation
+- `/unswarm` - Stop swarming player
 
 ## 🔧 Troubleshooting
 - Ensure you're using a supported executor (SirHurt or Xeno)
