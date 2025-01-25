@@ -69,6 +69,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 - `/reset` or `/re` - Reset all alts
 - `/forcereset` - Force reset all alts
 - `/quit` - Make all alts leave the game
+- `/firework` - Make all alts fly up and explode
 
 ### Animations
 - `/dance1`, `/dance2`, `/dance3` - Different dance animations
@@ -86,11 +87,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 - `/swarm [player]` - Make alts swarm around a target randomly
 
 ### Formations
-- `/rline` - Line up to the right of main account
-- `/lline` - Line up to the left of main account
-- `/bline` - Line up behind main account
-- `/bring` - Bring all alts to main account
-- `/circle` - Form a circle around main account
+- `/rline [player] or /rline` - Align all alts to the right of the main account or a specified player.
+- `/lline [player] or /lline` - Align all alts to the left of the main account or a specified player.
+- `/bline [player] or /bline` - Line up all alts directly behind the main account or a specified player.
+- `/bring [player]` - Instantly teleport all alts to the main account’s location.
+- `/goto [player]` - Instantly teleport all alts to the players location.
+- `/circle [player] or /circle` - Form a circle around main account or a specified player.
 - `/worm [player]` - Follow in a chain formation
 
 ### Special Movements
