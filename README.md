@@ -140,6 +140,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 
 ## 📝 Credits
 Created by punchy39
+ty thegirloofboi (discord raphfeinusgcowner) for helping with ideas and bug testing
 
 ## ⚖️ License
 This project is for educational purposes only. Use at your own risk.
