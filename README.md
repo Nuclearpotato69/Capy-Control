@@ -85,6 +85,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 - `/pf [player]` - Pathfind to specified player
 - `/stalk [player]` - Make alts follow a target player
 - `/swarm [player]` - Make alts swarm around a target randomly
+- `/swarm2 [player]` - Make alts swarm around a target randomly
 
 ### Formations
 - `/rline [player] or /rline` - Align all alts to the right of the main account or a specified player.
