@@ -86,7 +86,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 - `/stalk [player]` - Make alts follow a target player
 - `/swarm [player]` - Make alts swarm around a target randomly
 - `/swarm2 [player]` - Make alts swarm around a target randomly
-
+- `/bang [player]` - Make alts "Bang" a target player
+- `/bang2 [player]` - Make alts "Bang" a target player
 ### Formations
 - `/rline [player] or /rline` - Align all alts to the right of the main account or a specified player.
 - `/lline [player] or /lline` - Align all alts to the left of the main account or a specified player.
@@ -125,6 +126,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 - `/unworm` - Stop worm formation
 - `/unstack` - Stop stacking
 - `/unbang` - Stop banging
+- `/unbang2` - Stop banging
 - `/unspiral` - Stop spiral movement
 - `/unorbit` or `/unorbit2` - Stop orbiting
 - `/unwonder` - Stop wandering
@@ -133,6 +135,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 - `/unstalk` - Stop stalking
 - `/unhelicopter` - Stop helicopter formation
 - `/unswarm` - Stop swarming player
+- `/stop` - Stop all follow loops and other looping cmds like follow
 
 ## 🔧 Troubleshooting
 - Ensure you're using a supported executor (SirHurt or Xeno)
